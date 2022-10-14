@@ -14,6 +14,22 @@ public class Examen {
         this.preguntas = new ArrayList<>();
     }
 
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public List<String> getPreguntas() {
+        return preguntas;
+    }
+
+    public void setPreguntas(List<String> preguntas) {
+        this.preguntas = preguntas;
+    }
+
     public Long getId() {
         return id;
     }
